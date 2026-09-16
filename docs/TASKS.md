@@ -34,10 +34,13 @@
 - **Errores pendientes:** Ninguno
 
 ### DÍA 4
-- **Estado:** `TODO`
+- **Estado:** `DONE`
 - **Objetivo:** SQLite y modelo de datos
-- **Criterio de aceptación:** DatabaseService, migraciones, CRUD funcional
-- **Resultado esperado:** Base de datos lista con tablas principales
+- **Criterio de aceptación:** DatabaseService, esquema inicial, foreign keys, tests pasando
+- **Archivos creados:** `src/types/database.ts`, `src/database/schema.ts`, `src/database/database.ts`, `src/test-db.ts`, `data/.gitkeep`
+- **Archivos modificados:** `.gitignore`, `package.json`, `docs/TASKS.md`
+- **Resultado:** Base de datos SQLite con 6 tablas, foreign keys, y smoke test pasando
+- **Errores pendientes:** Ninguno
 
 ---
 

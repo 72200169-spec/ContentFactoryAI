@@ -66,6 +66,10 @@ prompts/*
 *.db-journal
 *.db-wal
 *.db-shm
+data/*.db
+data/*.sqlite
+data/*.sqlite3
+!data/.gitkeep
 
 # FFmpeg intermediate files
 *.temp.mp4
